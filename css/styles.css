@@ -526,3 +526,17 @@ a.checkout {
   padding: 10px;
   text-align: center;
 }
+.wrap{
+top: 0;
+right: 0;
+z-index: 2;
+position: fixed;
+width: 35%;
+height: 100%;
+}
+.wrap-hide{
+  display: none;
+}
+.wrap-show{
+  display: block;
+}
